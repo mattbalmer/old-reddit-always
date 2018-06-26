@@ -1,0 +1,14 @@
+{
+    "background": {
+       "scripts": [ "request.js" ]
+    },
+    "description": "Redirects any reddit.com page to old.reddit.com",
+    "icons": { "16": "old-reddit-16.png",
+               "48": "old-reddit-48.png",
+               "128": "old-reddit-128.png" },
+    "manifest_version": 2,
+    "name": "Old Reddit Always",
+    "permissions": [ "webRequest", "webRequestBlocking", "https://www.reddit.com/*" ],
+    "version": "1.0",
+    "author": "Matt Balmer"
+}
